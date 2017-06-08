@@ -1,6 +1,5 @@
 var funcionEjecutadora = function () {
   cambioDePagina();
-  
 }
 
 var cambioDePagina = function () {
