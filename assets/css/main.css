@@ -1,3 +1,4 @@
+/*generales*/
 .miContenedor {
   box-sizing: border-box;
   width: 100%;
@@ -8,6 +9,8 @@
   background: -webkit-linear-gradient(-45deg, #530060 10%,#EA0B8C 100%);
 }
 
+
+/*home*/
 .fondoAnimado {
   background-image: url("https://media.giphy.com/media/a2QExYEHYCQJq/giphy.gif");
   background-position: center;
@@ -28,3 +31,5 @@
   background: -webkit-linear-gradient(-45deg, #530060 10%,#EA0B8C 100%);
   border: none;
 }
+
+/*registroUsuario*/
