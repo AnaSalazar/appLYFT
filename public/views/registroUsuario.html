@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lyft-Steph Registro</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="../assets/css/main.css">
+  </head>
+  <body>
+
+    <section class="miContenedor">
+      <!-- Cabecera -->
+      <section class="row">
+        <div class="col s2">
+          <a href="home.html"><img src="../assets/images/volver.png" class="volver" alt="Volver"></a>
+        </div>
+        <div class="col s8 offset-s2">
+          <h5>Sing Up</h5>
+        </div>
+        <div class="col s12 center">
+          <p class=" subtitulo">Join now for free ride credit</p>
+        </div>
+      </section>
+      <!-- Ingreso de número -->
+      <section class="row">
+        <div class="col s4 offset-s1 bordeInput">
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!"><img src="../assets/images/colombia.png" alt="Banderita" class="center bandera"></a></li>
+            <li><a href="#!"><img src="../assets/images/peru.png" alt="Banderita" class="center bandera"></a></li>
+            <li class="divider"></li>
+            <li><a href="#!"><img src="../assets/images/usa.png" alt="Banderita" class="center bandera"></a></li>
+          </ul>
+          <ul class="center">
+            <li><a class="dropdown-button center" href="#!" data-activates="dropdown1"><img src="../assets/images/mexico.png" alt="Banderita" class="center bandera"><i class="material-icons">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+        <div class="col s6 bordeInput">
+          <input placeholder="+52" id="numeroTelefonico" type="number" class="validate" value="52">
+        </div>
+        <div class="col s12 center">
+          <p>We´ll send a text to verify your phone</p>
+        </div>
+      </section>
+      <!-- Boton Next -->
+      <section class="row">
+        <a id="botonNext" href="" class="btn-large botonNext" disabled="">NEXT</a>
+      </section>
+      <!-- Teclado numerico -->
+      <section class="row">
+        <table class="centered bordered">
+            <tr>
+              <td>1</td>
+              <td>2<p class="letras">ABC</p></td>
+              <td>3<p class="letras">DEF</p></td>
+            </tr>
+            <tr>
+              <td>4<p class="letras">GHI</p></td>
+              <td>5<p class="letras">JKL</p></td>
+              <td>6<p class="letras">MNO</p></td>
+            </tr>
+            <tr>
+              <td>7<p class="letras">PQRS</p></td>
+              <td>8<p class="letras">TUV</p></td>
+              <td>9<p class="letras">XYZ</p></td>
+            </tr>
+            <tr>
+              <td class="gris"></td>
+              <td>0</td>
+              <td class="gris"></td>
+            </tr>
+        </table>
+      </section>
+    </section><!-- Cierre de miContenedor -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../assets/js/registroUsuario.js"></script>
+  </body>
+</html>

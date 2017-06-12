@@ -1,0 +1,69 @@
+/*generales*/
+.miContenedor {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.fondoDegradado {
+  background: -webkit-linear-gradient(-45deg, #530060 10%,#EA0B8C 100%);
+}
+
+/*home*/
+.fondoAnimado {
+  background-image: url("https://media.giphy.com/media/a2QExYEHYCQJq/giphy.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+.botonesHome {
+  margin-top: 80vh;
+}
+
+.aparienciaBotonesHome {
+  border-radius: 5%;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.aparienciaBotonesHome:hover {
+  background: -webkit-linear-gradient(-45deg, #530060 10%,#EA0B8C 100%);
+  border: none;
+}
+
+/*registroUsuario*/
+.volver {
+  padding-top: 45%;
+  width: 70%;
+  padding-bottom: 15%;
+}
+
+.subtitulo {
+  margin: 0px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2%;
+}
+
+.bandera {
+  width: 60%;
+}
+
+.bordeInput {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.botonNext {
+  width: 100%;
+  background-color: #EA0B8C;
+}
+
+.letras {
+  margin: 0;
+  padding: 0;
+}
+
+.gris {
+  background-color: grey;
+}
