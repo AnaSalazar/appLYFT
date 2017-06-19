@@ -45,7 +45,7 @@
 }
 
 .bandera {
-  width: 60%;
+  width: 44%;
 }
 
 .bordeInput {
@@ -57,13 +57,4 @@
 .botonNext {
   width: 100%;
   background-color: #EA0B8C;
-}
-
-.letras {
-  margin: 0;
-  padding: 0;
-}
-
-.gris {
-  background-color: grey;
 }

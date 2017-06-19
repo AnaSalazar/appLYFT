@@ -14,6 +14,12 @@ var botonHabilitado = function () {
 }
 
 var generarCodigo = function () {
-  
+  var codigo = "LAB-"
+  var aleatorio = Math.floor(Math.random() * 1000);
+  alert("Tu código: " + codigo + aleatorio);
 }
+
+
+
+
 $(document).ready(funcionPrimera);
